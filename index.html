@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-commerce</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="stylesheet"  href="icons/all.min.css">
+	<link rel="stylesheet"  href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="webfonts">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#"><b><span style="font-size: 35px;">COLOS</span><span style="color:rgb(255, 187, 0); font-size: 35px;" f>SHOP</span></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="d-flex">
+            <input name="input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
+            <button class="btn btn-outline-success "style="color: rgb(255, 187, 0) border 1px solid rgb(255, 187, 0);" onclick="submitMe()">Search</button>
+          </div>
+        </div>
+      </nav>
+      <div class="collapse navbar-collapse shp" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+          <a class="nav-link active" aria-current="page" href="#">PROMOTION</a>
+          <a class="nav-link active" aria-current="page" href="#">PAGE</a>
+          <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+          <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+          <a class="nav-link active icon1" aria-current="page" href="#"><i class="fa fa-search"></i></a>
+          <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-user"></i></a>
+          <button type="" class="position-relative cart">
+            <i class="fa fa-shopping-cart "></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger messages">
+              2
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="product-container">
+ 
+    <!-- The fetched products will be displayed here -->
+  </div>
+  <!-- <div id="product-container"></div> -->
+  <div id="carouselExampleCaptions" class="carousel slide bg-dark" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner more media1">
+    <div class="carousel-item active ">
+      <img src="image/hp new1.jpg" class="d-block" width="1500px" height="600px" alt="...">
+      <div class="carousel-caption d-none d-md-block ontop">
+        <p style="color: black;">SPING / SUMMER COLLECTION 2023</p>
+        <p style="color: black; font-size: 50px;">Get up to 30% <br> New Arrivals</p>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/mac book 2.jpg" class="d-block "width="100%" height="600px" alt="..."  >
+      <div class="carousel-caption d-none d-md-block ontop">
+        <h1 style="color: black;">GET THE BEST PHONE</h1>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/laptops.jpg" class="d-block w-100" height="600px" alt="...">
+      <div class="carousel-caption d-none d-md-block ontop">
+        <h1 style="color: black;">WE SELL QUALITY PRODUCT </h1>
+        
+      </div>
+    </div>
+    </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class="container-fluid bg-warning main">
+ <div class="boxer">
+  <div class="card mb-3" style="max-width: 370px;">
+    <div class="row g-0">
+      <div class="col-md-4" >
+        <img src="./image/iphon2.jpg" class="img-fluid rounded-start">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Iphone 13</h5>
+          <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+          <p class="card-text"><small class="text-muted">(23 Reviews)</small><br>
+          <small>save $299.</small><br>
+          <b>$499.00</b></p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 370px;">
+    <div class="row g-0">
+      <div class="col-md-4" >
+        <img src="./image/New folder/tv.webp" class="img-fluid rounded-start" style="padding-top: 50px;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Smart Tv</h5>
+          <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+          <p class="card-text"><small class="text-muted">(14 Reviews)</small><br>
+          <small>save $60.</small><br>
+          <b>$247.00</b></p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 370px;">
+    <div class="row g-0">
+      <div class="col-md-4" >
+        <img src="./image/New folder/air coditioner.jfif" class="img-fluid rounded-start" style="padding-top: 50px;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Air Conditioner</h5>
+          <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+          <p class="card-text"><small class="text-muted">(18 Reviews)</small><br>
+          <small>save $142.</small><br>
+          <b>$250.00</b></p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+
+  <div class="boxer">
+  <div class="card mb-3" style="max-width: 370px;">
+    <div class="row g-0">
+      <div class="col-md-4" >
+        <img src="./image/New folder/lp.jfif" class="img-fluid rounded-start" style="padding-top: 50px;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Hp Laptop</h5>
+          <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+          <p class="card-text"><small class="text-muted">(27 Reviews)</small><br>
+          <small>save $178.</small><br>
+          <b>$293.00</b></p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 370px;">
+    <div class="row g-0">
+      <div class="col-md-4" >
+        <img src="./image/New folder/freezer.jpg" class="img-fluid rounded-start" style="padding-top: 30px;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Deep freezer</h5>
+          <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+          <p class="card-text"><small class="text-muted">(10 Reviews)</small><br>
+          <small>save $255.</small><br>
+          <b>$455.00</b></p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 370px;">
+    <div class="row g-0">
+      <div class="col-md-4" >
+        <img src="./image/New folder/batu-gezer-1HcNgs3RrKE-unsplash.jpg" class="img-fluid rounded-start" style="padding-top:50px;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Game</h5>
+          <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+          <p class="card-text"><small class="text-muted">(12 Reviews)</small><br>
+          <small>save $263.</small><br>
+          <b>$460.00</b></p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="boxer">
+    <div class="card mb-3" style="max-width: 370px;">
+      <div class="row g-0">
+        <div class="col-md-4" >
+          <img src="./image/New folder/s23.jfif" class="img-fluid rounded-start" style="padding-top: 50px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Sumsung S23 ultra</h5>
+            <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+            <p class="card-text"><small class="text-muted">(23 Reviews)</small><br>
+            <small>save $311.</small><br>
+            <b>$511.00</b></p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card mb-3" style="max-width: 370px;">
+      <div class="row g-0">
+        <div class="col-md-4" >
+          <img src="./image/New folder/washing machince.jpg" class="img-fluid rounded-start" style="padding-top:30px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Washing Machince</h5>
+            <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+            <p class="card-text"><small class="text-muted">(23 Reviews)</small><br>
+            <small>save $188.</small><br>
+            <b>$356.00</b></p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card mb-3" style="max-width: 370px;">
+      <div class="row g-0">
+        <div class="col-md-4" >
+          <img src="./image/New folder/clipper.png" class="img-fluid rounded-start" style="padding-top: 50px;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Clipper</h5>
+            <p class="card-text"><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i><i class="fa fa-star" style="color: yellow;"></i></p>
+            <p class="card-text"><small class="text-muted">(23 Reviews)</small><br>
+            <small>save $67.</small><br>
+            <b>$185.00</b></p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="button">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+	</div>
+  </a>
+
+</div>
+<div class="image">
+</div>
+<h1 style="text-align: center;">Productlist</h1>
+<div id="product list"></div>
+
+
+
+
+
+	
+
+
+
+
+<script src="script.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
